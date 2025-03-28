@@ -1,0 +1,11 @@
+* {
+
+  text-decoration: none !important;
+  list-style-type: none !important;
+  box-sizing: border-box !important;
+  font-family: "Outfit", sans-serif !important;
+}
+
+.body_bg {
+  background: linear-gradient(170.41deg, #FFFFFF 57.29%, #FFF4E5 86.03%);
+}
