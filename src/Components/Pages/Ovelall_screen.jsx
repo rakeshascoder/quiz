@@ -18,7 +18,7 @@ const Ovelall_screen = () => {
         <p className="fs_18 text-[#B8B6B6] max-w-[340px] text-center capitalize">in their 30s *custom* already tried our carotenoid tanning blend</p>
         <div className="max-sm:mx-[-20px]">
           <img className="hidden sm:block" src={overall_page_img} alt="overall_page_img" />
-          <img className="sm:hidden" src={overall_screen_img_for_mobile} alt="overall_screen_img_for_mobile" />
+          <img className="sm:hidden" src={overall_screen_img_for_mobile} alt="overall_screen_img_for_mobile_img" />
 
         </div>
         <div className="pb-10"><Commonbtn text={"Continue"} /></div>
