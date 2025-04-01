@@ -24,3 +24,26 @@ export const Filter_icon = () => {
 
   )
 };
+export const Forward_btn_icon = () => {
+  return (
+    <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="1.54647" y="1.2582" width="36.3993" height="36.3993" rx="6.04153" fill="#C49F6D" />
+      <rect x="1.54647" y="1.2582" width="36.3993" height="36.3993" rx="6.04153" stroke="white" stroke-width="1.42595" />
+      <path d="M21.3874 15.3578L25.4874 19.4578L21.3874 23.5578" stroke="white" stroke-width="1.01318" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M14.0048 19.4578H25.3726" stroke="white" stroke-width="1.01318" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M26.7656 15.3578L30.8656 19.4578L26.7656 23.5578" stroke="white" stroke-width="1.01318" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+
+
+  )
+}
+export const Forward_Arrow_Icon = () => {
+  return (
+    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M3.5791 12.73L20.5791 12.73" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M16.5791 6.72998L18.0536 8.2045C19.6377 9.78856 20.4297 10.5806 20.7265 11.4939C20.9875 12.2973 20.9875 13.1627 20.7265 13.966C20.4297 14.8794 19.6377 15.6714 18.0536 17.2555L16.5791 18.73" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+
+  )
+}
+
