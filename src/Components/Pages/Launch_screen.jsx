@@ -23,7 +23,7 @@ const Launch_screen = () => {
   return (
     <div className='sm:w-[465px] mx-auto flex flex-col items-center 2xl:justify-center relative xl:h-[calc(100vh-71px)] '>
       <img src={vector_homepage} className='absolute bottom-[57px] left-1/2 opacity-20 ' alt="vector_homepage" />
-      <h1 className='fs_26 mb-10 px-1 text-center '>Can I Get An <span className='text-[#D6B588] font-extrabold'>Attractive
+      <h1 className='fs_26 my-10 px-1 text-center '>Can I Get An <span className='text-[#D6B588] font-extrabold'>Attractive
         Masculine</span> Tan With Carotenoids?</h1>
       <p className='fs_18 text-[#B8B6B6] text-center max-sm:px-5 lg:w-[265px] '>Take our "Skin Profile" quiz to find out</p>
       <div className='max-w-[295px] mx-auto'>
