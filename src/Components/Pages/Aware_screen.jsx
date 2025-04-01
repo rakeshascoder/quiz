@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Aware_hero_img from '../../assets/Images/Png/Aware_hero_img.png'
+import Aware_hero_img from '../../assets/Images/Png/aware_hero_img.png'
 import Commonbtn from '../Common/Commonbtn'
 
 const Aware_screen = () => {
