@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import people_preface from '../../assets/Images/Png/people_preface.png'
 import people_afterface from '../../assets/Images/Png/people_afterface.png'
-import vector_homepage from '../../assets/Images/svg/vector_homepage.svg'
+import vector_homepage from '../../assets/Images/svg/Vector_homepage.svg'
 import { Forward_btn_icon } from '../Common/Icons'
 import { Link } from 'react-router-dom'
 
