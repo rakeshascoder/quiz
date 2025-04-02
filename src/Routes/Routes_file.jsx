@@ -5,6 +5,7 @@ import Launch_screen from '../Components/Pages/Launch_screen';
 import Aware_screen from '../Components/Pages/Aware_screen';
 import Age_screen from '../Components/Pages/Age_screen';
 import Overall_screen from '../Components//Pages/Ovelall_screen';
+import Skin_selection_screen from '../Components//Pages/Skin_selection_screen';
 
 
 
@@ -17,6 +18,7 @@ const Routes_file = () => {
         <Route path='/Aware' element={<Aware_screen />} />
         <Route path='/Age_screen' element={<Age_screen />} />
         <Route path='/Overall_screen' element={<Overall_screen />} />
+        <Route path='/Skin_selection_screen' element={<Skin_selection_screen />} />
       </Route>
     </Routes>
   )

@@ -8,7 +8,7 @@ const Ovelall_screen = () => {
 
 
   return (
-    <div className="relative">
+    <div className="relative px-[20px] md:px-[50px]">
       <div className="sm:w-[600px] mx-auto flex flex-col  items-center 2xl:justify-center  xl:h-[calc(100vh-71px)]">
 
         <Progress_tracker step={1} />

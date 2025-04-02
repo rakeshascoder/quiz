@@ -5,7 +5,7 @@ import Commonbtn from '../Common/Commonbtn'
 
 const Aware_screen = () => {
   return (
-    <div>
+    <div className='px-[20px] md:px-[50px]'>
       <div className='sm:w-[465px] mx-auto flex flex-col items-center 2xl:justify-center  xl:h-[calc(100vh-71px)] '>
 
         <h1 className='fs_26 my-10 px-1 text-center w-[353px] sm:mx-auto '>Get Your  <span className='text-[#D6B588] font-extrabold'>Personal Training</span> plan</h1>
