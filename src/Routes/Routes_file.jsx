@@ -11,6 +11,12 @@ import Busy_screen from '../Components/Pages/Busy_screen';
 import Tan_info from '../Components/Pages/Tan_info';
 import Tan_select from '../Components/Pages/Tan_select';
 import Skin_deal_screen from '../Components/Pages/Skin_deal_screen';
+import Appearence_Screen from '../Components/Pages/Appearence_Screen';
+import Carotenoids_Screen from '../Components/Pages/carotenoids_Screen';
+import Biggest_doubt_Scren from '../Components/Pages/Biggest_doubt_Scren';
+import Ready_to_get_skin_expert_screen from '../Components/Pages/Ready_to_get_skin_expert_screen';
+import Get_ready_natural_health_screen from '../Components/Pages/Get_ready_natural_health_screen';
+import Scan_your_face from '../Components/Pages/Scan_your_face';
 
 
 
@@ -29,6 +35,12 @@ const Routes_file = () => {
         <Route path='/Tan_info' element={<Tan_info />} />
         <Route path='/Tan_select' element={<Tan_select />} />
         <Route path='/Skin_deal_screen' element={<Skin_deal_screen />} />
+        <Route path='/Appearence_Screen' element={<Appearence_Screen />} />
+        <Route path='/carotenoids_Screen' element={<Carotenoids_Screen />} />
+        <Route path='/Biggest_doubt_Scren' element={<Biggest_doubt_Scren />} />
+        <Route path='/Ready_to_get_skin_expert_screen' element={<Ready_to_get_skin_expert_screen />} />
+        <Route path='/Get_ready_natural_health_screen' element={<Get_ready_natural_health_screen />} />
+        <Route path='/Scan_your_face' element={<Scan_your_face />} />
       </Route>
     </Routes>
   )
