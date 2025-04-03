@@ -44,6 +44,57 @@ export const Forward_Arrow_Icon = () => {
       <path d="M16.5791 6.72998L18.0536 8.2045C19.6377 9.78856 20.4297 10.5806 20.7265 11.4939C20.9875 12.2973 20.9875 13.1627 20.7265 13.966C20.4297 14.8794 19.6377 15.6714 18.0536 17.2555L16.5791 18.73" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
     </svg>
 
+
+  )
+}
+export const Forward_Line_Icon = () => {
+  return (
+    <svg width="321" height="6" viewBox="0 0 321 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0.2229" y="1.16846" width="25" height="4.63843" rx="2" fill="#EDEDED" />
+      <rect x="29.7229" y="1.16846" width="25" height="4.63843" rx="2" fill="#EDEDED" />
+      <rect x="29.5" y="0.72998" width="25" height="5" rx="2" fill="#D6B588" />
+      <rect x="59.2229" y="1.16846" width="25" height="4.63843" rx="2" fill="#EDEDED" />
+      <rect x="59.5" y="0.72998" width="25" height="5" rx="2" fill="#D6B588" />
+      <rect x="88.7229" y="1.16846" width="25" height="4.63843" rx="2" fill="#EDEDED" />
+      <rect x="88.5" y="0.72998" width="14" height="5" rx="2" fill="#D6B588" />
+      <rect x="118.223" y="1.16846" width="25" height="4.63843" rx="2" fill="#EDEDED" />
+      <rect x="147.723" y="1.16846" width="25" height="4.63843" rx="2" fill="#EDEDED" />
+      <rect x="177.223" y="1.16846" width="25" height="4.63843" rx="2" fill="#EDEDED" />
+      <rect x="206.723" y="1.16846" width="25" height="4.63843" rx="2" fill="#EDEDED" />
+      <rect x="236.223" y="1.16846" width="25" height="4.63843" rx="2" fill="#EDEDED" />
+      <rect x="265.723" y="1.16846" width="25" height="4.63843" rx="2" fill="#EDEDED" />
+      <rect x="295.223" y="1.16846" width="25" height="4.63843" rx="2" fill="#EDEDED" />
+      <rect x="0.5" y="0.72998" width="25" height="5" rx="2" fill="#D6B588" />
+    </svg>
+  )
+}
+export const Forward_btn_circle_Icon = () => {
+  return (
+    <svg width="89" height="89" viewBox="0 0 89 89" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g filter="url(#filter0_d_123_4471)">
+        <rect x="16.5" y="8.72998" width="56" height="56" rx="28" fill="url(#paint0_linear_123_4471)" shape-rendering="crispEdges" />
+        <path d="M51.1127 30.293L57.5497 36.7299L51.1127 43.1669" stroke="white" stroke-width="1.59068" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M40.962 30.293L47.3989 36.7299L40.962 43.1669" stroke="white" stroke-width="1.59068" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M29.3713 36.73H47.2188" stroke="white" stroke-width="1.59068" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+      <defs>
+        <filter id="filter0_d_123_4471" x="0.5" y="0.72998" width="88" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+          <feOffset dy="8" />
+          <feGaussianBlur stdDeviation="8" />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix type="matrix" values="0 0 0 0 0.287762 0 0 0 0 0.0732292 0 0 0 0 0.308333 0 0 0 0.5 0" />
+          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_123_4471" />
+          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_123_4471" result="shape" />
+        </filter>
+        <linearGradient id="paint0_linear_123_4471" x1="16.5" y1="8.72998" x2="69.14" y2="35.05" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#D6B588" />
+          <stop offset="1" stop-color="#DAB37F" />
+        </linearGradient>
+      </defs>
+    </svg>
+
   )
 }
 
