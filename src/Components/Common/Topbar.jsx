@@ -22,7 +22,7 @@ const Topbar = () => {
 
   console.log(hideIcons);
   return (
-    <div className='container mx-auto lg:px-10'>
+    <div className='container mx-auto lg:px-10 '>
       <div className={`flex ${hideIcons ? 'justify-center' : 'justify-between'}  z-50 mt-5`}>
         {/* Show back icon only if NOT on "/" or "/Aware" OR if on larger screens */}
         {hideIcons ? <></> : <Back_navigate_icon
