@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Progress_tracker from "../Common/Progress_tracker";
-import { AgeScreenData } from "../Common/Helper";
+import { Skintone_data } from "../Common/Helper";
 import { Link } from "react-router-dom";
 
 const Age_screen = () => {
@@ -13,23 +13,26 @@ const Age_screen = () => {
   return (
     <div className="px-[20px] md:px-[50px]">
 
-      <div className="sm:w-[600px] xl:h-[calc(100vh-71px)] mx-auto flex flex-col  items-center 2xl:justify-center">
-        <Progress_tracker step={0.5} />
-        <h1 className="fs_26 leading-[1.19] font-extrabold my-10">
+      <div className="sm:max-w-[800px] xl:h-[calc(100vh-71px)] mx-auto flex flex-col  items-center 2xl:justify-center">
+        <Progress_tracker step={1.5} />
+        <h1 className="fs_26 leading-[1.19] capitalize font-extrabold my-10">
           What’s your skin tone?
         </h1>
-        <div className="flex pb-16 z-3  flex-wrap justify-center gap-[14px]">
-          {AgeScreenData.map((img, index) => (
-            <div
-              key={img.id} // Ensure key is unique
-              onClick={() => handleClick(index)}
-              className={` sm:h-[155px]  w-[38%] sm:w-[134px] shadow-[0_4px_4px_0_#00000040] rounded-[24px] cursor-pointer transition-all ${activeIndex === index ? "border border-[#D6B588]" : "border border-transparent"
-                }`}
-            >
-              <Link to="">
-                <img className="w-full" src={img.src} alt={img.alt} />
-              </Link>
-            </div>
+        <div className="flex pb-16 z-3  flex-wrap justify-center gap-[18px]">
+          {Skintone_data.map((img, index) => (
+            <Link to={""}>
+              <div
+                key={img.id}
+                onClick={() => handleClick(index)}
+                className={`  shadow-[0_5px_7px_-0.25px_#B0B0B0] gap-[18px]  rounded-[26px] cursor-pointer transition-all ${activeIndex === index ? "border-1 border-[#D6B588] bg-[#D6B588]" : "border border-transparent bg-transparent"
+                  }`}
+
+              >
+                <div className="w-[136.25px] h-[174.14px]">
+                  <img className="block" src={img.src} alt={img.alt} />
+                </div>
+
+              </div></Link>
           ))}
         </div>
       </div>

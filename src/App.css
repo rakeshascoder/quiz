@@ -8,7 +8,8 @@
 }
 
 .body_bg {
-  background: linear-gradient(170.41deg, #FFFFFF 57.29%, #FFF4E5 86.03%);
+  /* background: #FFFAF3, linear-gradient(170.41deg, #FFFFFF 57.29%, #FFF4E5 86.03%); */
+  background-color: #FFFAF3;
 }
 
 .progress_bg_gradient {
