@@ -1,14 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import Progress_tracker from "../Common/Progress_tracker";
 import { Skintone_data } from "../Common/Helper";
 import { Link } from "react-router-dom";
 
 const Age_screen = () => {
-  const [activeIndex, setActiveIndex] = useState(null); // Track selected item
-
-  const handleClick = (index) => {
-    setActiveIndex(index); // Set the active index
-  };
+ 
 
   return (
     <div className="px-[20px] md:px-[50px]">
@@ -19,17 +15,16 @@ const Age_screen = () => {
           What’s your skin tone?
         </h1>
         <div className="flex pb-16 z-3  flex-wrap justify-center gap-[18px]">
-          {Skintone_data.map((img, index) => (
+          {Skintone_data.map((img) => (
             <Link to={""}>
               <div
                 key={img.id}
-                onClick={() => handleClick(index)}
-                className={`  shadow-[0_5px_7px_-0.25px_#B0B0B0] gap-[18px]  rounded-[26px] cursor-pointer transition-all ${activeIndex === index ? "border-1 border-[#D6B588] bg-[#D6B588]" : "border border-transparent bg-transparent"
-                  }`}
+               
+                className={`  shadow-[0_5px_7px_-0.25px_#B0B0B0] gap-[18px]  rounded-[26px] cursor-pointer transition-all border border-transparent  hover:bg-[#D6B588] hover:border hover:border-[#D6B588]`}
 
               >
                 <div className="w-[136.25px] h-[174.14px]">
-                  <img className="block" src={img.src} alt={img.alt} />
+                  <img className="w-full h-full object-cover" src={img.src} alt={img.alt} />
                 </div>
 
               </div></Link>

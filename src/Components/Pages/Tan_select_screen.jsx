@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Progress_tracker from "../Common/Progress_tracker";
 import { Link } from "react-router-dom";
 import ten_select_uppr_vector from "../../assets/Images/svg/ten_select_uppr_vector.svg"
@@ -6,12 +6,7 @@ import age_screen_vector_down from "../../assets/Images/svg/ten_select_bottom_ve
 import { Tone_select_data } from "../Common/Helper";
 
 const Age_screen = () => {
-  const [activeIndex, setActiveIndex] = useState(null); // Track selected item
 
-  const handleClick = (index) => {
-    setActiveIndex(index); // Set the active index
-
-  };
 
   return (
     <div className="px-[20px] md:px-[50px]">
@@ -24,13 +19,12 @@ const Age_screen = () => {
             Do you like looking tan?
           </h1>
           <div className="flex flex-col gap-[19px] " >
-            {Tone_select_data.map((item, index) => {
+            {Tone_select_data.map((item) => {
               return (
-                <div key={item.id} className="shadow-[0px_8px_16px_rgba(47,60,51,0.05)] rounded-[26px]" onClick={() => handleClick(index)}
+                <div key={item.id} className="shadow-[0px_8px_16px_rgba(47,60,51,0.05)] rounded-[26px]"
                 >
                   <Link to={""}>
-                    <div className={`max-w-[343px] px-[36px]  flex items-center justify-center bg-white h-[72px] ${activeIndex === index ? "shadow-[0_0_0_4px_rgba(47,60,51,0.05)]  border border-[#D6B588]" : "border border-transparent"
-                      } shadow-[0_8px_16px_rgba(47, 60, 51, 0.05)]   rounded-[26px]`}>
+                    <div className={`max-w-[343px] px-[36px] hover:border hover:border-[#D6B588]  transition-all  flex items-center justify-center bg-white h-[72px]  shadow-[0_8px_16px_rgba(47, 60, 51, 0.05)] hover:shadow-[0_0_0_4px_rgba(47,60,51,0.05)]  rounded-[26px]`}>
                       <p className="fs_14 text-[#2F3C33] font-semibold">{item.text}</p>
                     </div>
                   </Link>

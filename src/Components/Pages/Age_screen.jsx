@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Progress_tracker from "../Common/Progress_tracker";
 import { AgeScreenData } from "../Common/Helper";
 import { Link } from "react-router-dom";
@@ -6,11 +6,7 @@ import age_screen_vector_top from "../../assets/Images/svg/age_screen_vector_top
 import age_screen_vector_down from "../../assets/Images/svg/age_screen_vector_down.svg"
 
 const Age_screen = () => {
-  const [activeIndex, setActiveIndex] = useState(null); // Track selected item
 
-  const handleClick = (index) => {
-    setActiveIndex(index); // Set the active index
-  };
 
   return (
     <div className="xl:h-[calc(100vh-71px)] overflow-hidden relative">
@@ -22,12 +18,11 @@ const Age_screen = () => {
           What’s Your Age?
         </h1>
         <div className="flex pb-16 z-3  flex-wrap justify-center gap-[14px]">
-          {AgeScreenData.map((img, index) => (
+          {AgeScreenData.map((img) => (
             <div
               key={img.id} // Ensure key is unique
-              onClick={() => handleClick(index)}
-              className={` sm:h-[155px]  w-[38%] sm:w-[134px] shadow-[0_4px_4px_0_#00000040] rounded-[24px] cursor-pointer transition-all ${activeIndex === index ? "border border-[#D6B588]" : "border border-transparent"
-                }`}
+
+              className={` sm:h-[155px]  w-[38%] sm:w-[134px] shadow-[0_4px_4px_0_#00000040] rounded-[24px] cursor-pointer transition-all hover:border hover:border-[#D6B588] `}
             >
               <Link to="">
                 <img className="w-full" src={img.src} alt={img.alt} />
