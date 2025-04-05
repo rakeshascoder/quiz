@@ -5,12 +5,16 @@ import reffernce_info_img2 from "../../assets/Images/Png/reffernce_info_img2.png
 import PubMed_img from "../../assets/Images/Png/PubMed_img.png"
 import men_women_img from "../../assets/Images/Png/men_women_img.png"
 import Commonbtn from "../Common/Commonbtn";
+import ten_select_uppr_vector from "../../assets/Images/svg/ten_select_uppr_vector.svg"
+import age_screen_vector_down from "../../assets/Images/svg/ten_select_bottom_vector.svg"
+
 
 const Refference_info_screen = () => {
     return <>
 
         <div className="sm:mx-0 px-[15px] mx-auto">
-
+            <img className="absolute top-0 left-0 " src={ten_select_uppr_vector} alt="ten_select_uppr_vector" />
+            <img className="absolute right-0 bottom-0" src={age_screen_vector_down} alt="age_screen_vector_down" />
             <span className="flex   items-center justify-center mt-[23px] ">
                 <Forward_Line_Icon />
             </span>

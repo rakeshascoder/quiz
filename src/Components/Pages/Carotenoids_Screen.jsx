@@ -1,5 +1,8 @@
 import React from "react";
 import { Forward_Line_Icon } from "../Common/Icons";
+import top_capsule_img from "../../assets/Images/svg/top_capsule_img.svg"
+import bottom_svg_img from "../../assets/Images/Png/bottom_svg_img.png"
+
 const tanDescriptions = [
   "Yes i knew about it",
   "I know but i'm still skeptical",
@@ -10,7 +13,9 @@ const tanDescriptions = [
 
 const Carotenoids_Screen = () => {
   return <div>
-    <div className="px-[13px] mx-auto bg-[#FFFAF3] h-screen ">
+    <div className="px-[13px] mx-auto bg-[#FFFAF3]">
+      <img className="absolute top-0 left-0 " src={top_capsule_img} alt="ten_select_uppr_vector" />
+      <img className="absolute right-0 bottom-0" src={bottom_svg_img} alt="age_screen_vector_down" />
       <div className="flex   items-center justify-center mt-[23px] ">
         <Forward_Line_Icon />
       </div>
@@ -20,7 +25,7 @@ const Carotenoids_Screen = () => {
         </p>
       </div>
 
-      <div className="sm:w-[343px] w-[290px]  mx-auto mb-[136px] mt-[40px]">
+      <div className="sm:w-[343px] w-[290px]  mx-auto  mt-[40px]">
         {tanDescriptions.map((description, index) => (
           <div
             key={index}

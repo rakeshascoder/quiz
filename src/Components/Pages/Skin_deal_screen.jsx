@@ -1,5 +1,9 @@
 import React from "react";
 import { Forward_Line_Icon } from "../Common/Icons";
+import top_capsule_img from "../../assets/Images/svg/top_capsule_img.svg"
+import bottom_svg_img from "../../assets/Images/Png/bottom_svg_img.png"
+
+
 const tanDescriptions = [
     "Constant sun exposure",
     "Some sun exposure",
@@ -12,7 +16,9 @@ const Skin_deal_screen = () => {
     return <>
 
 
-        <div className="px-[13px] mx-auto bg-[#FFFAF3] h-screen ">
+        <div className="px-[13px] mx-auto bg-[#FFFAF3] ">
+            <img className="absolute top-0 left-0 " src={top_capsule_img} alt="ten_select_uppr_vector" />
+            <img className="absolute right-0 bottom-0" src={bottom_svg_img} alt="age_screen_vector_down" />
             <div className="flex   items-center justify-center mt-[23px] ">
                 <Forward_Line_Icon />
             </div>
