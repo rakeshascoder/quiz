@@ -1,11 +1,15 @@
 import React from "react";
 import ready_to_get_img1 from "../../assets/Images/Png/ready_to_get_img1.png"
 import Commonbtn from "../Common/Commonbtn";
+import top_capsule_img from "../../assets/Images/svg/top_capsule_img.svg"
+import bottom_svg_img from "../../assets/Images/Png/bottom_svg_img.png"
 
 const Ready_to_get_skin_expert_screen = () => {
     return <>
 
-        <div className="px-[20px] mx-auto  h-screen">
+        <div className="px-[20px] mx-auto ">
+            <img className="absolute top-0 left-0 sm:block hidden" src={top_capsule_img} alt="ten_select_uppr_vector" />
+            <img className="absolute right-0 bottom-0 sm:block hidden" src={bottom_svg_img} alt="age_screen_vector_down" />
 
             <div className="flex justify-center"><img src={ready_to_get_img1} alt="doctor img" /></div>
 
