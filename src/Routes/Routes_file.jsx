@@ -25,6 +25,9 @@ import Failed_Picture from '../Components/Pages/Failed_Picture';
 import Analyzing_screen from '../Components/Pages/Analyzing_screen';
 import Instructed from '../Components/Pages/Instructed';
 import E_mail_screen from '../Components/Pages/E_mail_screen';
+import Full_Plan from '../Components/Pages/Full_Plan';
+import Chart_progress from '../Components/Pages/Chart_progress';
+
 
 
 
@@ -43,10 +46,10 @@ const Routes_file = () => {
         <Route path='/Reason_screen' element={<Reason_screen />} />
         <Route path='/Refference_info_screen' element={<Refference_info_screen />} />
         <Route path='/Tan_info' element={<Tan_info />} />
-        <Route path='/Busy_screen' element={<Busy_screen />} />
         <Route path='/Tan_select' element={<Tan_select />} />
         <Route path='/Skin_deal_screen' element={<Skin_deal_screen />} />
         <Route path='/Appearence_Screen' element={<Appearence_Screen />} />
+        <Route path='/Busy_screen' element={<Busy_screen />} />
         <Route path='/carotenoids_Screen' element={<Carotenoids_Screen />} />
         <Route path='/Biggest_doubt_Scren' element={<Biggest_doubt_Scren />} />
         <Route path='/Get_ready_natural_health_screen' element={<Get_ready_natural_health_screen />} />
@@ -57,6 +60,8 @@ const Routes_file = () => {
         <Route path='/Failed_Picture' element={<Failed_Picture />} />
         <Route path='/Analyzing_screen' element={<Analyzing_screen />} />
         <Route path='/E_mail_screen' element={<E_mail_screen />} />
+        <Route path='/Chart_progress' element={<Chart_progress />} />
+        <Route path='/Full_Plan' element={<Full_Plan />} />
       </Route>
     </Routes>
   )
