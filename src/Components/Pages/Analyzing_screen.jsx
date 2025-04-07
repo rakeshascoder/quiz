@@ -10,7 +10,7 @@ const Analyzing_screen = () => {
             <div className="flex   items-center justify-center mt-[23px] ">
                 <Forward_Line_Icon />
             </div>
-            <div className="">
+            <div className="mb-[50px]">
                 <p className="font-extrabold text-[20px] w-[271px] mx-auto mt-[56px] text-center">
                     Analyzing Your Answer, Your Skin Tone,
                 </p>

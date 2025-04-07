@@ -224,7 +224,7 @@ const Full_Plan = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex justify-center mt-[60px]'>
+            <div className='flex justify-center mt-[60px] mb-[51px]'>
                 <Commonbtn text={"Get My Plan"} />
             </div>
         </div>;

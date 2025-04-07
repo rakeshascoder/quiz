@@ -21,17 +21,15 @@ const Refference_info_screen = () => {
             <p className=" font-bold text-[26px] leading-[119%] mt-[41px] m-auto w-[242px]" >
                 A Tan Makes You Look Better
             </p>
-
-
-            <div className="relative  h-[270px]">
-                <img className="absolute top-3.5 right-[50%] rig ht-[40%]" src={reffernce_info_img1} alt="people_preface" />
-                <img className="absolute top-12 right-[39%] ri ght-[-12%]" src={reffernce_info_img2} alt="people_preface" />
-                <div className=" absolute top-32 right-[49%]">
+            <div className="relative  h-[250px]  flex xl:flex-none justify-center mt-[30px]">
+                <img className="xl:absolute top-3.5 xl:right-[50%] w-[150px] h-[201px] xl:h-full xl:w-fit" src={reffernce_info_img1} alt="people_preface" />
+                <img className="xl:absolute top-12 xl:right-[36%] ms-[20px] xl:ms-0  w-[150px] h-[201px] xl:h-full xl:w-fit" src={reffernce_info_img2} alt="people_preface" />
+                <div className=" absolute top-[130px] right-[46.5%] xl:block hidden">
                     <Forward_btn_circle_Icon />
                 </div>
             </div>
 
-            <div className="relative sm:w-[319px] w-[300px] m-auto mt-[26px]">
+            <div className="relative sm:w-[319px] w-[300px] m-auto xl:mt-[100px]">
                 <p className="font-medium text-[14px] leading-[22px] ">
                     A tan can make your skin look healthier, more radiant, and even out your complexion.
                 </p>
