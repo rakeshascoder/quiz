@@ -51,6 +51,14 @@ const Get_ready_natural_health_screen = () => {
                                 Balanced Mix of
                                 Carotenoids
                             </p>
+
+                            <div className="mt-[7px] flex gap-2">
+                                <div className="h-[11px] w-[11px] bg-[#FFDF13] rounded-[3px]"></div>
+                                <div className="h-[11px] w-[11px] bg-[#FF1313] rounded-[3px]"></div>
+                                <div className="h-[11px] w-[11px] bg-[#FF9500] rounded-[3px]"></div>
+                                <div className="h-[11px] w-[11px] bg-[#92744B] rounded-[3px]"></div>
+                                <div className="h-[11px] w-[11px] bg-[#49EC82] rounded-[3px]"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -70,7 +78,7 @@ const Get_ready_natural_health_screen = () => {
                         <img src={health_img} alt="img" />
                         <div className="ms-[5px]">
                             <p className=" font-bold text-[10px] ">
-                                Only 1 CAROTENOIDS
+                                Healthy Natural Tan
                             </p>
                         </div>
                     </div>

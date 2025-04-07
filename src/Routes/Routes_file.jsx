@@ -25,6 +25,9 @@ import Failed_Picture from '../Components/Pages/Failed_Picture';
 import Analyzing_screen from '../Components/Pages/Analyzing_screen';
 import Instructed from '../Components/Pages/Instructed';
 import E_mail_screen from '../Components/Pages/E_mail_screen';
+import Full_Plan from '../Components/Pages/Full_Plan';
+import Chart_progress from '../Components/Pages/Chart_progress';
+
 
 
 
@@ -57,6 +60,8 @@ const Routes_file = () => {
         <Route path='/Failed_Picture' element={<Failed_Picture />} />
         <Route path='/Analyzing_screen' element={<Analyzing_screen />} />
         <Route path='/E_mail_screen' element={<E_mail_screen />} />
+        <Route path='/Chart_progress' element={<Chart_progress />} />
+        <Route path='/Full_Plan' element={<Full_Plan />} />
       </Route>
     </Routes>
   )
