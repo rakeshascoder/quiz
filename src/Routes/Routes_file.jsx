@@ -59,8 +59,8 @@ const Routes_file = () => {
         <Route path='/Take_Picture_screen' element={<Take_Picture_screen />} />
         <Route path='/Failed_Picture' element={<Failed_Picture />} />
         <Route path='/Analyzing_screen' element={<Analyzing_screen />} />
-        <Route path='/E_mail_screen' element={<E_mail_screen />} />
         <Route path='/Chart_progress' element={<Chart_progress />} />
+        <Route path='/E_mail_screen' element={<E_mail_screen />} />
         <Route path='/Full_Plan' element={<Full_Plan />} />
       </Route>
     </Routes>

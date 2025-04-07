@@ -36,7 +36,7 @@ const Scan_your_face = () => {
             <div className='mt-[16px]  flex justify-center'>
                 <Commonbtn text={"Let’s Do it"} />
             </div>
-            <div className="sm:w-[348px] w-[290px] mx-auto mt-[24px] flex items-start">
+            <div className="sm:w-[348px] w-[290px] mx-auto mt-[24px] flex items-start mb-[30px]">
                 <span>
                     <Data_privacy_Icon />
                 </span>
