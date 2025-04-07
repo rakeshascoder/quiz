@@ -15,3 +15,22 @@
 .progress_bg_gradient {
   background-image: conic-gradient(from -180deg at 50% -250%, #C4A77D, #EDEDED);
 }
+
+.css-1x2wln8-MuiChartsAxis-root-MuiChartsXAxis-root,
+.css-175e1i1-MuiChartsAxis-root-MuiChartsYAxis-root {
+  display: none;
+}
+
+.MuiChartsTooltip-popper {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.MuiChartsTooltip-root {
+  background-color: #D6B588 !important;
+  color: white !important;
+  border-radius: 8px;
+  padding: 8px 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border: none !important;
+}
